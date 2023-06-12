@@ -1,0 +1,24 @@
+Watching for file changes with StatReloader
+Forbidden (CSRF token from POST incorrect.): /login/
+[11/Jun/2023 20:45:15] "POST /login/ HTTP/1.1" 403 2518
+[11/Jun/2023 20:45:18] "GET /login/ HTTP/1.1" 200 2104
+[11/Jun/2023 20:45:26] "GET /register/ HTTP/1.1" 200 2467
+Not Found: /register/<https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js>
+[11/Jun/2023 20:45:26] "GET /register/%3Chttps://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js%3E HTTP/1.1" 404 2961
+Not Found: /register/<https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js>
+[11/Jun/2023 20:45:26] "GET /register/%3Chttps://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js%3E HTTP/1.1" 404 2970
+[11/Jun/2023 20:45:29] "GET /login/ HTTP/1.1" 200 2104
+[11/Jun/2023 20:45:35] "POST /login/ HTTP/1.1" 302 0
+[11/Jun/2023 20:45:35] "GET /upload/ HTTP/1.1" 200 1748
+[11/Jun/2023 20:45:42] "POST /upload/ HTTP/1.1" 200 1235
+[11/Jun/2023 20:45:47] "GET /upload/ HTTP/1.1" 200 1748
+[11/Jun/2023 20:46:51] "GET /upload/ HTTP/1.1" 200 1757
+[11/Jun/2023 20:46:57] "POST /upload/ HTTP/1.1" 200 1235
+[11/Jun/2023 20:47:09] "GET /upload/ HTTP/1.1" 200 1757
+[11/Jun/2023 20:47:11] "GET /login/ HTTP/1.1" 200 2104
+[11/Jun/2023 20:54:09] "GET / HTTP/1.1" 200 912
+[11/Jun/2023 21:00:41] "GET / HTTP/1.1" 200 912
+Not Found: /<https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js>
+[11/Jun/2023 21:00:42] "GET /%3Chttps://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js%3E HTTP/1.1" 404 2943
+Not Found: /<https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js>
+[11/Jun/2023 21:00:42] "GET /%3Chttps://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js%3E HTTP/1.1" 404 2934
